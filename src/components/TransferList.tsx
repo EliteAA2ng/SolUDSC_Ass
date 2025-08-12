@@ -181,7 +181,7 @@ export default function TransferList({ transfers, walletAddress }: TransferListP
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
-              {currentTransfers.map((transfer, index) => {
+              {currentTransfers.map((transfer) => {
                 const timeInfo = formatTimestamp(transfer.timestamp);
                 const isReceived = transfer.direction === 'received';
                 

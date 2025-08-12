@@ -1,5 +1,4 @@
 import { Connection, PublicKey, ParsedTransactionWithMeta, TokenBalance } from '@solana/web3.js';
-import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import { USDC_MINT, USDC_DECIMALS, DEFAULT_CONFIG } from '../config';
 import { UsdcTransfer, TokenAccount } from '../types';
 
